@@ -2,48 +2,175 @@
 <html>
 <head>
 	<title>Munashe M</title>
-	
 	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<style type="text/css">
+		
+		* {
+			color: #DEDEDE;
+		}
+
+		body {
+			margin: 1em;
+			background-color: rgba(0, 0, 0, 0);
+		}
+
+		.card {
+			margin: 0 auto;
+			margin-bottom: 3em;
+			padding: 2.5em;
+			width: 75%;
+		}
+
+		.card-body {
+			padding: 1em;
+		}
+
+		.card-title {
+			border-bottom: 1px solid #DEDEDE;
+			padding-bottom: 0.5em;
+		}
+
+		#personal-profile {
+			border: 1px solid #ff66c4;
+		}
+
+		#tech-skills {
+			border: 1px solid #05eb83;
+		}
+
+		#core-skills-and-achievements {
+			border: 1px solid #e3d802;
+		}
+
+		#academic-qualification {
+			border: 1px solid #dd05fa;
+		}
+
+		#work-experience {
+			border: 1px solid #57ddff;
+		}
+
+		.container {
+			margin: 0 auto;
+		}
+
+		footer {
+			margin-top: 5em;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 1.5em;
+		}
+
+		header {
+			background-color: #111111;
+			color: #DDDDDD;
+			margin-bottom: 4.5em;
+			padding: 1em;
+			text-align: center;
+		}
+
+		hr {
+			background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0));
+		}
+
+		html {
+			background-color: #111111;
+		}
+
+		ul.fl {
+			display: inline-block;
+			float: left;
+			width: 50%;
+		}
+
+		ul.fr {
+			display: inline-block;
+			width: 50%;
+		}
+
+	</style>
 </head>
 <body>
-	<header>
-		<h1>MUNASHE MUJAJI</h1>
-	</header>
-	<div id="personal-profile">
-		<h2>PERSONAL PROFILE</h2>
-		<ul>
-			<li>Gender:&#9 Female</li>
-			<li>Position:&#9 Omega - Converter</li>
-			<li>Email:&#9 munashexrm@gmail.com</li>
-		</ul>
-		<p>My interest in the field of IT was sparked when I was introduced to the subject in high school where I chose to take it as an extra subject from Grade 10 to Grade 12, leading to a growing fascination in IT oriented careers. I now aspire to be a significant contributor to the IT industry where I hope to have a hand in both the technical and the creative aspects of society altering technologies, particularly in the gaming and data science sub-sections.</p>
-	</div>
-	<div id="tech-skills">
-		<h2>TECHNICAL KNOWLEDGE</h2>
-		<ul>
-			<li>Javascript, JQuery</li>
-			<li>Java</li>
-			<li>SQL</li>
-			<li>HTML, CSS, Bootstrap</li>
-			<li>PHP</li>
-		</ul>
-	</div>
-	<div id="core-skills-and-achievements">
-		<h2>CORE SKILLS AND ACHIEVEMENTS</h2>
-		<ul>
-			<li>Goal oriented</li>
-			<li>Deadline driven</li>
-			<li>Attentive to detail</li>
-			<li>Interpersonal communication</li>
-			<li>Teamwork</li>
-			<li>Adaptable</li>
-		</ul>
-	</div>
-	<div id="work-experience">
-		<h2>WORK EXPERIENCE</h2>
-		<p>Title:&#9 IMY 110 Tutor</p>
-		<p>Institution:&#9 University of Pretoria</p>
-		<p>Duration:&#9 2019 - 2019</p>
+	<div class="container">
+		<header>
+			<p>CURRICULUM VITAE</p>
+			<h1><b>MUNASHE MUJAJI</b></h1>
+			<h4>BIS MULTIMEDIA STUDENT</h4>
+			<h5>UNIVERSITY OF PRETORIA</h5>
+			<h6>munashexrm@gmail.com</h6>
+		</header>
+		<!--<hr>-->
+		<div id="personal-profile" class="card">
+			<h2 class="card-title">PERSONAL PROFILE</h2>
+			<div class="card-body">
+				<ul>
+					<li>Gender: &nbsp;&nbsp;&nbsp; Female</li>
+					<li>Team: &nbsp;&nbsp;&nbsp; Omega, Converter</li>
+				</ul>
+
+				<p>My interest in the field of IT was sparked when I was introduced to the subject in high school where I chose to take it as an extra subject from Grade 10 to Grade 12, leading to a growing fascination in IT oriented careers. I now aspire to be a significant contributor to the IT industry where I hope to have a hand in both the technical and the creative aspects of society altering technologies, particularly in the gaming and data science sub-sections.</p>
+			</div>
+		</div>
+		<div id="tech-skills" class="card">
+			<h2 class="card-title">TECHNICAL KNOWLEDGE AND PROFICIENCY</h2>
+			<div class="card-body">
+				<h3>Proficient</h3>
+				<ul>
+					<li>HTML, CSS, Bootstrap</li>
+					<li>Javascript, JQuery</li>
+				</ul>
+				<h3>Intermediate</h3>
+				<ul class="fl d-block">
+					<li>C++</li>
+					<li>Java</li>
+					<li>PHP</li>
+				</ul>
+				<ul class="fr d-block">
+					<li>SQL</li>
+					<li>Microsoft Office Suite</li>
+					<li>Adobe Creative Cloud</li>
+				</ul>
+			</div>
+		</div>
+		<div id="core-skills-and-achievements" class="card">
+			<h2 class="card-title">CORE SKILLS AND ACHIEVEMENTS</h2>
+			<div class="card-body">
+				<ul class="fl d-block">
+					<li>Goal oriented</li>
+					<li>Deadline driven</li>
+					<li>Attentive to detail</li>
+					<li>Resilience</li>
+				</ul>
+				<ul class="fr d-block">
+					<li>Interpersonal communication</li>
+					<li>Teamwork</li>
+					<li>Adaptable</li>
+					<li>Problem solving</li>
+				</ul>
+			</div>
+		</div>
+		<div id="academic-qualification" class="card">
+			<h2 class="card-title">ACADEMIC QUALIFICATION</h2>
+			<div class="card-body">
+				<p><b>Bachelor’s Degree in Information Science, Multimedia</b>, pending – University of Pretoria (2018 - present)</p>
+				<p><b>High School Diploma</b>, 2017 – Brescia House School (2013 - 2017)</p>
+			</div>
+		</div>
+		<div id="work-experience" class="card">
+			<h2 class="card-title">WORK EXPERIENCE</h2>
+			<div class="card-body">
+				<p>Title: IMY 110 Tutor</p>
+				<p>Institution: University of Pretoria</p>
+				<p>Duration: 2019 - 2019</p>
+			</div>
+		</div>
+		<footer>
+			CV M Mujaji, 2020
+		</footer>
 	</div>
 </body>
 </html>
